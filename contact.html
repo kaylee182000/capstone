@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Services</title>
-
+    <title>Contact</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,600;0,800;0,900;1,600&display=swap"
       rel="stylesheet"
@@ -23,7 +22,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./CSS/services.css" />
+    <link rel="stylesheet" href="./CSS/contact.css" />
   </head>
   <body>
     <section class="header">
@@ -57,10 +56,7 @@
                     <a class="nav-link text-black" href="./about.html">About</a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      class="nav-link active text-success"
-                      aria-current="page"
-                      href="#"
+                    <a class="nav-link text-black" href="service.html"
                       >Services</a
                     >
                   </li>
@@ -93,7 +89,12 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-black" href="contact.html">Contact</a>
+                    <a
+                      class="nav-link active text-success"
+                      aria-current="page"
+                      href="#"
+                      >Contact</a
+                    >
                   </li>
                 </ul>
                 <i class="fa-regular fa-moon"></i>
@@ -106,87 +107,100 @@
     <section class="banner">
       <div class="container">
         <div class="banner-content">
-          <h2>Services</h2>
+          <h2>About Us</h2>
           <span
             ><a href="./home.html">Home </a
-            ><i class="fa-solid fa-arrow-right"></i> Services</span
+            ><i class="fa-solid fa-arrow-right"></i> About</span
           >
         </div>
       </div>
     </section>
-    <section class="categories">
+    <section class="findUs">
       <div class="container">
-        <div class="categories-content row">
-          <div class="item row col-xl-12">
-            <div class="left col-lg-6">
-              <img
-                src="https://demo.w3layouts.com/demos_new/template_demo/02-07-2020/pooch-care-liberty-demo_Free/1396504601/web/assets/images/g1.jpg"
-                alt=""
-              />
-            </div>
-            <div class="right col-lg-6">
-              <h3>01</h3>
-              <h5>Dog Walking</h5>
-              <p>
-                Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam
-                sequi optio consectetur adipisicing elit. Fuga, suscipit totam
-                animi consequatur saepe blanditiis.
-              </p>
-              <a href="#">Read More</a>
-            </div>
+        <div class="title">
+          <h3>FIND US</h3>
+          <h5>Get In Touch With Us</h5>
+        </div>
+        <div class="content row">
+          <div class="left col-lg-8">
+            <form
+              action="https://sendmail.w3layouts.com/submitForm"
+              method="post"
+            >
+              <div class="line1">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="w3lName"
+                  id="w3lName"
+                  placeholder="Name"
+                  required=""
+                />
+                <input
+                  type="email"
+                  class="form-control"
+                  name="w3lSender"
+                  id="w3lSender"
+                  placeholder="Email"
+                  required=""
+                />
+              </div>
+              <div class="line2">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="w3lSubject"
+                  id="w3lSubject"
+                  placeholder="Subject"
+                  required=""
+                />
+              </div>
+              <div class="line3">
+                <textarea
+                  name="w3lMessage"
+                  class="form-control"
+                  id="w3lMessage"
+                  placeholder="Message"
+                  required=""
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-style btn-primary mt-4">
+                Send Message
+              </button>
+            </form>
           </div>
-          <div class="item item2 flex-row-reverse flex-lg-row row col-xl-12">
-            <div class="left col-lg-6">
-              <h3>02</h3>
-              <h5>Dog Training</h5>
-              <p>
-                Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam
-                sequi optio consectetur adipisicing elit. Fuga, suscipit totam
-                animi consequatur saepe blanditiis.
-              </p>
-              <a href="#">Read More</a>
+          <div class="right col-lg-4">
+            <div class="item row">
+              <div class="logo col-2">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="content col-10">
+                <h4>Address</h4>
+                <p>
+                  #135 block, Barnard St. Brooklyn, London<br />
+                  10036, UK
+                </p>
+              </div>
             </div>
-            <div class="right col-lg-6" >
-              <img
-                src="https://demo.w3layouts.com/demos_new/template_demo/02-07-2020/pooch-care-liberty-demo_Free/1396504601/web/assets/images/g2.jpg"
-                alt=""
-              />
+            <div class="item row">
+              <div class="logo col-2">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="content col-10">
+                <h4>Telephone</h4>
+                <a href="tel: +(12)234-11-24"> +(12)234-11-24</a><br />
+                <a href="tel: +(12)234-11-25"> +(12)234-11-24</a>
+              </div>
             </div>
-          </div>
-          <div class="item row col-xl-12">
-            <div class="left col-lg-6">
-              <img
-                src="https://demo.w3layouts.com/demos_new/template_demo/02-07-2020/pooch-care-liberty-demo_Free/1396504601/web/assets/images/g3.jpg"
-                alt=""
-              />
-            </div>
-            <div class="right col-lg-6">
-              <h3>03</h3>
-              <h5>Dog Boarding</h5>
-              <p>
-                Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam
-                sequi optio consectetur adipisicing elit. Fuga, suscipit totam
-                animi consequatur saepe blanditiis.
-              </p>
-              <a href="#">Read More</a>
-            </div>
-          </div>
-          <div class="item item2 flex-row-reverse flex-lg-row row col-xl-12">
-            <div class="left col-lg-6">
-              <h3>04</h3>
-              <h5>Dog Transportation</h5>
-              <p>
-                Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam
-                sequi optio consectetur adipisicing elit. Fuga, suscipit totam
-                animi consequatur saepe blanditiis.
-              </p>
-              <a href="#">Read More</a>
-            </div>
-            <div class="right col-lg-6">
-              <img
-                src="https://demo.w3layouts.com/demos_new/template_demo/02-07-2020/pooch-care-liberty-demo_Free/1396504601/web/assets/images/g4.jpg"
-                alt=""
-              />
+            <div class="item row">
+              <div class="logo col-2">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="content col-10">
+                <h4>Email Us</h4>
+                <a href="mailto: example@mail.com"> example@mail.com</a><br />
+                <a href="mailto: example@mail1.com"> example@mail1.com</a>
+              </div>
             </div>
           </div>
         </div>

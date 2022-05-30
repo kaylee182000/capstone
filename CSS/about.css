@@ -367,8 +367,8 @@ html {
   line-height: 36px;
   border-radius: 50px;
 }
-@media screen and (max-width: 768px){
-  .reason .reason-content .left{
+@media screen and (max-width: 768px) {
+  .reason .reason-content .left {
     text-align: center;
   }
 }
