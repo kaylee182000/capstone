@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <title>Gallery</title>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,600;0,800;0,900;1,600&display=swap"
       rel="stylesheet"
@@ -22,7 +23,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./CSS/contact.css" />
+    <link rel="stylesheet" href="./CSS/Gallery.css" />
   </head>
   <body>
     <section class="header">
@@ -30,9 +31,7 @@
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-              <a class="navbar-brand text-success" href="./home.html"
-                >Pooch Care</a
-              >
+              <a class="navbar-brand text-success" href="#">Pooch Care</a>
               <button
                 class="navbar-toggler"
                 type="button"
@@ -56,12 +55,17 @@
                     <a class="nav-link text-black" href="./about.html">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-black" href="service.html"
+                    <a class="nav-link text-black" href="./service.html"
                       >Services</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-black" href="gallery.html">Gallery</a>
+                    <a
+                      class="nav-link active text-success"
+                      aria-current="page"
+                      href="#"
+                      >Gallery</a
+                    >
                   </li>
 
                   <li class="nav-item dropdown">
@@ -89,12 +93,7 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a
-                      class="nav-link active text-success"
-                      aria-current="page"
-                      href="#"
-                      >Contact</a
-                    >
+                    <a class="nav-link text-black" href="contact.html">Contact</a>
                   </li>
                 </ul>
                 <i class="fa-regular fa-moon"></i>
@@ -105,115 +104,80 @@
       </header>
     </section>
     <section class="banner">
-      <div class="container">
-        <div class="banner-content">
-          <h2>Contact Us</h2>
-          <span
-            ><a href="./home.html">Home </a
-            ><i class="fa-solid fa-arrow-right"></i>Contact</span
-          >
-        </div>
-      </div>
-    </section>
-    <section class="findUs">
-      <div class="container">
-        <div class="title">
-          <h3>FIND US</h3>
-          <h5>Get In Touch With Us</h5>
-        </div>
-        <div class="content row">
-          <div class="left col-lg-8">
-            <form
-              action="https://sendmail.w3layouts.com/submitForm"
-              method="post"
+        <div class="container">
+          <div class="banner-content">
+            <h2>Gallery</h2>
+            <span
+              ><a href="./home.html">Home</a
+              ><i class="fa-solid fa-arrow-right"></i> Gallery</span
             >
-              <div class="line1">
-                <input
-                  type="text"
-                  class="form-control"
-                  name="w3lName"
-                  id="w3lName"
-                  placeholder="Name"
-                  required=""
-                />
-                <input
-                  type="email"
-                  class="form-control"
-                  name="w3lSender"
-                  id="w3lSender"
-                  placeholder="Email"
-                  required=""
-                />
-              </div>
-              <div class="line2">
-                <input
-                  type="text"
-                  class="form-control"
-                  name="w3lSubject"
-                  id="w3lSubject"
-                  placeholder="Subject"
-                  required=""
-                />
-              </div>
-              <div class="line3">
-                <textarea
-                  name="w3lMessage"
-                  class="form-control"
-                  id="w3lMessage"
-                  placeholder="Message"
-                  required=""
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn-style btn-primary mt-4">
-                Send Message
-              </button>
-            </form>
-          </div>
-          <div class="right col-lg-4">
-            <div class="item row">
-              <div class="logo col-2">
-                <i class="fa-solid fa-location-dot"></i>
-              </div>
-              <div class="content col-10">
-                <h4>Address</h4>
-                <p>
-                  #135 block, Barnard St. Brooklyn, London<br />
-                  10036, UK
-                </p>
-              </div>
-            </div>
-            <div class="item row">
-              <div class="logo col-2">
-                <i class="fa-solid fa-phone"></i>
-              </div>
-              <div class="content col-10">
-                <h4>Telephone</h4>
-                <a href="tel: +(12)234-11-24"> +(12)234-11-24</a><br />
-                <a href="tel: +(12)234-11-25"> +(12)234-11-24</a>
-              </div>
-            </div>
-            <div class="item row">
-              <div class="logo col-2">
-                <i class="fa-solid fa-envelope"></i>
-              </div>
-              <div class="content col-10">
-                <h4>Email Us</h4>
-                <a href="mailto: example@mail.com"> example@mail.com</a><br />
-                <a href="mailto: example@mail1.com"> example@mail1.com</a>
-              </div>
-            </div>
           </div>
         </div>
-        
-      </div>
-      <div class="map-iframe mt-5">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317718.69319292053!2d-0.3817765050863085!3d51.528307984912544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C+UK!5e0!3m2!1sen!2spl!4v1562654563739!5m2!1sen!2spl"
-          frameborder="0"
-          style="border: 0px; pointer-events: none"
-          allowfullscreen=""
-        ></iframe>
-      </div>
+      </section>
+    <section class="portfolio">
+        <div class="portfolio-main">
+            <div class="container">
+                <div class="header-section">
+                    <h6 class="sub-title">View Gallery</h6>
+                    <h6 class="hny-title">Latest Gallery</h6>
+                </div>
+                <div class="row galler-top mt-lg-5 mt-4">
+                    <div class="col-md-4 protfolio-item hover14">
+                      <a href="./img/g1.jpg" data-lightbox="example-set" class="mb-4" data-title="lorem ipsum dolor sit amet">
+                        <figure>
+                          <img src="./img/g1.jpg" alt="product" class="img-fluid">
+                        </figure>
+                      </a>
+                      <a href="/img/g2jpg" data-lightbox="example-set" class="mb-4" data-title="lorem ipsum dolor sit amet">
+                        <figure>
+                          <img src="/img/g2.jpg" alt="product" class="img-fluid">
+                        </figure>
+                      </a>
+                      <a href="/img/g7.jpg" data-lightbox="example-set" class="mb-4" data-title="lorem ipsum dolor sit amet">
+                        <figure>
+                          <img src="/img/g7.jpg" alt="product" class="img-fluid">
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="col-md-4 protfolio-item hover14">
+                      <a href="/img/g3.jpg" data-lightbox="example-set" class="mb-4" data-title="lorem ipsum dolor sit amet">
+                        <figure>
+                          <img src="/img/g3.jpg" alt="product" class="img-fluid">
+                        </figure>
+                      </a>
+                      <a href="/img/g4.jpg" data-lightbox="example-set" class="mb-4" data-title="lorem ipsum dolor sit amet">
+                        <figure>
+                          <img src="/img/g4.jpg" alt="product" class="img-fluid">
+                        </figure>
+                      </a>
+                      <a href="/img/g8.jpg" data-lightbox="example-set" class="mb-4" data-title="lorem ipsum dolor sit amet">
+                        <figure>
+                          <img src="/img/g8.jpg" alt="product" class="img-fluid">
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="col-md-4 protfolio-item hover14">
+                      <a href="/img/g5.jpg" data-lightbox="example-set" class="mb-4" data-title="lorem ipsum dolor sit amet">
+                        <figure>
+                          <img src="/img/g5.jpg" alt="product" class="img-fluid">
+                        </figure>
+                      </a>
+                      <a href="/img/g6.jpg" data-lightbox="example-set" class="mb-4" data-title="lorem ipsum dolor sit amet">
+                        <figure>
+                          <img src="/img/g6.jpg" alt="product" class="img-fluid">
+                        </figure>
+                      </a>
+                      <a href="/img/g9.jpg" data-lightbox="example-set" class="mb-4" data-title="lorem ipsum dolor sit amet">
+                        <figure>
+                          <img src="/img/g9.jpg" alt="product" class="img-fluid">
+                        </figure>
+                      </a>
+                    </div>
+            
+                  </div>
+            </div>
+           
+        </div>
     </section>
     <section class="footer">
       <div class="container">
@@ -240,13 +204,13 @@
                 <h5>Company</h5>
                 <ul>
                   <li>
-                    <a href="#">About Us</a>
+                    <a href="about.html">About Us</a>
                   </li>
                   <li>
                     <a href="#">Blog Posts</a>
                   </li>
                   <li>
-                    <a href="#">Services</a>
+                    <a href="service.html">Services</a>
                   </li>
                   <li>
                     <a href="#">Pricing</a>
@@ -257,7 +221,7 @@
                 <h5>Quick Links</h5>
                 <ul>
                   <li>
-                    <a href="#">Contact Us</a>
+                    <a href="contact.html">Contact Us</a>
                   </li>
                   <li>
                     <a href="#">Create Account</a>
